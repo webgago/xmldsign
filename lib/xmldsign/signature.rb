@@ -4,6 +4,9 @@ require "delegate"
 
 module Xmldsign
   class Signature < DelegateClass(XML::Node)
+    XML_C14N_1_0           = 0
+    XML_C14N_EXCLUSIVE_1_0 = 1
+    XML_C14N_1_1           = 2
 
     def signed_info
       SignedInfo.new find_first('.//ds:SignedInfo')
@@ -31,18 +34,18 @@ module Xmldsign
       fill_digest!
       clear_signature_value!
       clear_certificate!
-      document
+      doc
     end
 
     def clear_signature_value!
       if (node = find_first('.//ds:SignatureValue'))
-        node.content = nil
+        node.content = ''
       end
     end
 
     def clear_certificate!
       if (node = find_first('.//ds:X509Certificate'))
-        node.content = nil
+        node.content = ''
       end
     end
 

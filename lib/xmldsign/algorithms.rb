@@ -28,7 +28,7 @@ module Xmldsign
       end
 
       def execute(doc)
-        doc.signature.parent.content = ''
+        doc.find_first('.//ds:Signature').remove!
         doc
       end
     end
@@ -41,15 +41,21 @@ module Xmldsign
       end
 
       def stylesheet
-        xslt = Nokogiri::XSLT transform_node.children.to_s
+        doc      = LibXML::XML::Document.new
+        doc.root = transform_node.find('*[1]').first.copy(true)
+        LibXSLT::XSLT::Stylesheet.new(doc)
       end
 
       def execute(doc)
-        stylesheet.transform doc
+        stylesheet.apply doc
       end
     end
 
-    class C14NExc
+    class Canonicalization
+      XML_C14N_1_0           = 0
+      XML_C14N_EXCLUSIVE_1_0 = 1
+      XML_C14N_1_1           = 2
+
       attr_reader :transform_node
 
       def initialize(transform_node)
@@ -57,7 +63,13 @@ module Xmldsign
       end
 
       def execute(doc)
-        doc.canonicalize Nokogiri::XML::XML_C14N_EXCLUSIVE_1_0
+        raise NotImplementedError
+      end
+    end
+
+    class C14NExc < Canonicalization
+      def execute(doc)
+        doc.canonicalize mode: XML_C14N_EXCLUSIVE_1_0
       end
     end
 
@@ -70,7 +82,7 @@ module Xmldsign
 
         "http://www.w3.org/2000/09/xmldsig#enveloped-signature" => Enveloped,
         "http://www.w3.org/TR/1999/REC-xslt-19991116"           => XSLT,
-        "http://www.w3.org/2001/10/xml-exc-c14n#"               => C14NExc
+        "http://www.w3.org/2001/10/xml-exc-c14n#"               => C14NExc,
     }
 
     module_function :factory

@@ -1,5 +1,6 @@
 require "xmldsign/version"
 require "libxml"
+require "libxslt"
 require "delegate"
 
 module Xmldsign

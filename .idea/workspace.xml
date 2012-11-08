@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f570d48-1fd8-4120-9aaf-56ad2dd2f3b1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/xmldsign.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/xmldsign/document.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/xmldsign/signature.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/xmldsign/signed_info.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/xmldsign/transforms.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/xmldsign/version.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xmldsign.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/xmldsign.rb" afterPath="$PROJECT_DIR$/lib/xmldsign.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/xmldsign/algorithms.rb" afterPath="$PROJECT_DIR$/lib/xmldsign/algorithms.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/xmldsign/signature.rb" afterPath="$PROJECT_DIR$/lib/xmldsign/signature.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/xmldsign/transforms.rb" afterPath="$PROJECT_DIR$/lib/xmldsign/transforms.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/assets/signed-act-birth.xml" afterPath="$PROJECT_DIR$/spec/assets/signed-act-birth.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/xmldsign/sign_spec.rb" afterPath="$PROJECT_DIR$/spec/xmldsign/sign_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xmldsign.gemspec" afterPath="$PROJECT_DIR$/xmldsign.gemspec" />
     </list>
     <ignored path="xmldsign.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,46 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="act-birth-for-sign.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/assets/act-birth-for-sign.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="14" selection-start="4708" selection-end="4708" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="document.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/xmldsign/document.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="26" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sign_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/xmldsign/sign_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="65" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transforms.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/xmldsign/transforms.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signature.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/xmldsign/signature.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="127" selection-end="127" vertical-scroll-proportion="0.045454547">
+            <state line="7" column="44" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -83,7 +43,61 @@
       <file leaf-file-name="algorithms.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/xmldsign/algorithms.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="40" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+            <state line="54" column="6" selection-start="1023" selection-end="1115" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signature.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/xmldsign/signature.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="9" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signed-act-birth.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-birth.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="116" column="19" selection-start="4748" selection-end="4748" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signed-act-changed-ns-order.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-changed-ns-order.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signed-act-changed-prefixes.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-changed-prefixes.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signed-act-changed-xml-comments.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-changed-xml-comments.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signed-act-death.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-death.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="97" column="16" selection-start="2909" selection-end="3893" vertical-scroll-proportion="0.7608371">
               <folding />
             </state>
           </provider>
@@ -92,7 +106,7 @@
       <file leaf-file-name="xmldsign.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/xmldsign.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="30" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
+            <state line="2" column="16" selection-start="53" selection-end="60" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,17 +134,17 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/assets/signed-act-birth.xml" />
-        <option value="$PROJECT_DIR$/lib/xmldsign.rb" />
-        <option value="$PROJECT_DIR$/xmldsign.gemspec" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/assets/act-birth-for-sign.xml" />
-        <option value="$PROJECT_DIR$/spec/xmldsign/sign_spec.rb" />
         <option value="$PROJECT_DIR$/lib/xmldsign/signed_info.rb" />
         <option value="$PROJECT_DIR$/lib/xmldsign/document.rb" />
         <option value="$PROJECT_DIR$/lib/xmldsign/transforms.rb" />
+        <option value="$PROJECT_DIR$/xmldsign.gemspec" />
+        <option value="$PROJECT_DIR$/lib/xmldsign.rb" />
         <option value="$PROJECT_DIR$/lib/xmldsign/algorithms.rb" />
+        <option value="$PROJECT_DIR$/spec/xmldsign/sign_spec.rb" />
         <option value="$PROJECT_DIR$/lib/xmldsign/signature.rb" />
+        <option value="$PROJECT_DIR$/spec/assets/signed-act-birth.xml" />
       </list>
     </option>
   </component>
@@ -204,6 +218,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmldsign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xmldsign" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,72 +371,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-birth.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.022440393">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="36" selection-start="93" selection-end="93" vertical-scroll-proportion="0.08815427">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="89" selection-end="89" vertical-scroll-proportion="0.110192835">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmldsign.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.59504133">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p194/bundler/gems/libxml-ruby-60829e2df2e2/lib/libxml/parser.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="64" selection-start="3528" selection-end="3800" vertical-scroll-proportion="0.4516129">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs19/class.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="13" selection-start="1999" selection-end="1999" vertical-scroll-proportion="0.40495867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Preferences/RubyMine40/rubystubs/ruby19/libxml-ruby/60829e/lib_xml.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="632" column="14" selection-start="23524" selection-end="23524" vertical-scroll-proportion="3.0220385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/delegate.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="340" column="22" selection-start="8853" selection-end="8869" vertical-scroll-proportion="0.24517906">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/assets/act-birth-for-sign.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="14" selection-start="4708" selection-end="4708" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/xmldsign.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -416,37 +385,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/xmldsign/sign_spec.rb">
+    <entry file="file://$PROJECT_DIR$/xmldsign.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="65" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+        <state line="21" column="34" selection-start="800" selection-end="800" vertical-scroll-proportion="0.47727272">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/xmldsign/document.rb">
+    <entry file="file://$PROJECT_DIR$/spec/assets/act-birth-for-sign.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+        <state line="117" column="14" selection-start="4708" selection-end="4708" vertical-scroll-proportion="0.6845152">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/xmldsign/transforms.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="30" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+        <state line="4" column="41" selection-start="176" selection-end="176" vertical-scroll-proportion="0.08815427">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Preferences/RubyMine40/rubystubs/ruby19/libxml-ruby/60829e/lib_xml.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="633" column="12" selection-start="23545" selection-end="23861" vertical-scroll-proportion="0.5151515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/xmldsign.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="53" selection-end="60" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/xmldsign/document.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="222" selection-end="222" vertical-scroll-proportion="0.17630854">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/xmldsign/algorithms.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="40" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+        <state line="54" column="6" selection-start="1023" selection-end="1115" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/xmldsign/sign_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="44" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/xmldsign/signature.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="127" selection-end="127" vertical-scroll-proportion="0.045454547">
+        <state line="36" column="9" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-birth.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="19" selection-start="4748" selection-end="4748" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-changed-ns-order.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-changed-prefixes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-changed-xml-comments.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/assets/signed-act-death.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="16" selection-start="2909" selection-end="3893" vertical-scroll-proportion="0.7608371">
           <folding />
         </state>
       </provider>
