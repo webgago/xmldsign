@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><doc:signedActRecordDeath xmlns:doc="http://ezags.rt.ru/type/document/" xmlns:act="http://ezags.rt.ru/type/actor/" xmlns:com="http://ezags.rt.ru/type/common/" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="http://ezags.rt.ru/type/externaldocuments/">
+<doc:actRecord>
+<com:registrarId>260001</com:registrarId>
+<com:actRecordNumber>136602</com:actRecordNumber>
+<com:actRecordDate>
+<com:day>19</com:day>
+<com:month>10</com:month>
+<com:year>2012</com:year>
+</com:actRecordDate>
+<doc:content>
+<com:groupOfCausesOfDeath>
+<com:a>
+<com:codeInICD10>A00</com:codeInICD10>
+</com:a>
+</com:groupOfCausesOfDeath>
+</doc:content>
+<doc:participants>
+<doc:dead>
+<com:surname>Петров</com:surname>
+<com:firstName>Максим</com:firstName>
+<com:patronymic>Александрович</com:patronymic>
+<com:gender>male</com:gender>
+<com:birthDate>
+<com:preciseDate>2012-10-19</com:preciseDate>
+</com:birthDate>
+<com:birthPlace>
+<com:rawAddressString>город Москва, Ленинградское шоссе, дом 10</com:rawAddressString>
+</com:birthPlace>
+<com:citizenship>1</com:citizenship>
+<com:residencePlace>
+<com:rawAddressString>село Балахоновское, Кочубеевский район, Ставропольский край, улица Школьная, дом 5</com:rawAddressString>
+</com:residencePlace>
+<com:deathDate>
+<com:preciseDate>2012-10-19</com:preciseDate>
+</com:deathDate>
+<com:deathPlace>
+<com:rawAddressString>город Москва, Щелковское шоссе, дом 3</com:rawAddressString>
+</com:deathPlace>
+<com:identityDocument>
+<com:documentType>21</com:documentType>
+<com:documentSeries>1625</com:documentSeries>
+<com:documentNumber>132395</com:documentNumber>
+<com:organizationName>ОВД Головинского района, город Москва</com:organizationName>
+<com:documentDate>2010-10-19</com:documentDate>
+<com:verificationStatus>2</com:verificationStatus>
+</com:identityDocument>
+</doc:dead>
+</doc:participants>
+<doc:otherApplicants>
+<doc:applicantPerson>
+<com:isApplicant>false</com:isApplicant>
+<com:surname>Петрова</com:surname>
+<com:firstName>Анастасия</com:firstName>
+<com:patronymic>Александровна</com:patronymic>
+<com:birthDate>
+<com:preciseDate>1994-10-19</com:preciseDate>
+</com:birthDate>
+<com:residencePlace>
+<com:rawAddressString>село Балахоновское, Кочубеевский район, Ставропольский край, улица Школьная, дом 5</com:rawAddressString>
+</com:residencePlace>
+<com:phoneNumber/>
+<com:workPhoneNumber/>
+<com:identityDocument>
+<com:documentType>21</com:documentType>
+<com:documentSeries>0436</com:documentSeries>
+<com:documentNumber>564995</com:documentNumber>
+<com:organizationName>ОВД Головинского района, город Москва</com:organizationName>
+<com:documentDate>2010-10-19</com:documentDate>
+<com:verificationStatus>2</com:verificationStatus>
+</com:identityDocument>
+</doc:applicantPerson>
+</doc:otherApplicants>
+</doc:actRecord>
+<doc:actRecordSignature>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr34102001-gostr3411"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xslt-19991116">
+<xslt:stylesheet xmlns:xslt="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<xslt:output method="xml" omit-xml-declaration="yes"/>
+<xslt:strip-space elements="*"/>
+<xslt:template match="@*|node()">
+<xslt:copy>
+<xslt:apply-templates select="@*|node()"/>
+</xslt:copy>
+</xslt:template>
+</xslt:stylesheet>
+</ds:Transform>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr3411"/>
+<ds:DigestValue>Ms4yQsyvoj1PIgiCuVm7+v8hXskEzdLOhOXUp/yzT8I=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+YHct+ZECYYSHqntRPNMU/EnxmYBdrUf5LP5eMTs4AodH+dLmCJ/NTy6BH+GiT1UFBdE45lLqq4lv
+lXJsFpg0jw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIBSjCB+qADAgECAgUA7/1hITAIBgYqhQMCAgMwDzENMAsGA1UEAxMEY2VydDAeFw0xMjEwMzAw
+NzQxMTlaFw0xMzEwMzAwNzQxMTlaMA8xDTALBgNVBAMTBGNlcnQwYzAcBgYqhQMCAhMwEgYHKoUD
+AgIkAAYHKoUDAgIeAQNDAARA9rS5YVzQ9QWrTlClZmIm7nFZqphb8km5pymtcdHUGqSu3WI8WHsE
+/U7of7Tjw3lyVBXUIpt849LaYX9G1w0QHaM7MDkwDgYDVR0PAQH/BAQDAgPoMBMGA1UdJQQMMAoG
+CCsGAQUFBwMCMBIGA1UdEwEB/wQIMAYBAf8CAQUwCAYGKoUDAgIDA0EANmaNSFTE6l8F/JxEh8T/
+UF/L3KBzOnJrhpZY3Ng5hTQ6+R6wxmRADP8qCSfIO+aSuDpciR3rDt6/BMipILwxCg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+</doc:actRecordSignature>
+</doc:signedActRecordDeath>

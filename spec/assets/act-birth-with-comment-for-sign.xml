@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:signedActRecordBirth xmlns:doc="http://ezags.rt.ru/type/document/"
+    xmlns:ext="http://ezags.rt.ru/type/externaldocuments/"
+                          xmlns:com="http://ezags.rt.ru/type/common/">
+    <doc:actRecord>
+        <com:registrarId>260001</com:registrarId>
+        <com:actRecordNumber>16</com:actRecordNumber>
+        <com:actRecordDate>
+            <com:day>15</com:day>
+            <com:month>10</com:month>
+            <com:year>2012</com:year>
+        </com:actRecordDate>
+        <doc:content>
+            <com:birthStatus>liveborn</com:birthStatus>
+            <com:isDiedInWeek>false</com:isDiedInWeek>
+            <com:numberOfBirths>1</com:numberOfBirths>
+        </doc:content>
+        <doc:participants>
+            <doc:child>
+                <com:surname>Сазоненко</com:surname>
+                <com:firstName>Петр</com:firstName>
+                <com:patronymic>Николаевич</com:patronymic>
+                <com:gender>female</com:gender>
+                <com:birthDate>
+                    <com:preciseDate>2012-10-10</com:preciseDate>
+                </com:birthDate>
+                <com:birthPlace>
+                    <com:rawAddressString>676840, Амурская область, Белогорск город, Низинное село, Восточный переулок, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString>
+                </com:birthPlace>
+            </doc:child>
+            <doc:father>
+                <com:isApplicant>true</com:isApplicant>
+                <com:surname>Сазоненко</com:surname>
+                <com:firstName>Имя</com:firstName>
+                <com:patronymic>Михайлович</com:patronymic>
+                <com:birthDate>
+                    <com:preciseDate>1980-10-14</com:preciseDate>
+                </com:birthDate>
+                <com:birthPlace>
+                    <com:rawAddressString>385019, Адыгея республика, Майкоп город, 1-й переулок, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString>
+                </com:birthPlace>
+                <com:citizenship>1</com:citizenship>
+                <com:nationality>1</com:nationality>
+                <com:residencePlace>
+                    <com:rawAddressString>385632, Адыгея республика, Гиагинский район, Владимировское село, Веселая улица, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString>
+                </com:residencePlace>
+            </doc:father>
+            <doc:mother>
+                <com:isApplicant>true</com:isApplicant>
+                <com:surname>Сазоненко</com:surname>
+                <com:firstName>Имя</com:firstName>
+                <com:patronymic>Владимировна</com:patronymic>
+                <com:birthDate>
+                    <com:preciseDate>1980-10-14</com:preciseDate>
+                </com:birthDate>
+                <com:birthPlace>
+                    <com:rawAddressString>385019, Адыгея республика, Майкоп город, 2-й переулок, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString>
+                </com:birthPlace>
+                <com:citizenship>1</com:citizenship>
+                <com:nationality>1</com:nationality>
+                <com:residencePlace>
+                    <com:rawAddressString>649785, Алтай республика, Кош-Агачский район, Актал село, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString>
+                </com:residencePlace>
+            </doc:mother>
+        </doc:participants>
+
+
+
+        <!-- Простой комментарий -->
+
+        <doc:documentConfirmingBirth>
+            <ext:medicalCertificateOfBirthByOrganization>
+                <com:documentNumber>123456789012</com:documentNumber>
+                <com:documentSeries>123456789012</com:documentSeries>
+                <com:documentDate>2012-10-14</com:documentDate>
+                <com:organizationName>роддом №7</com:organizationName>
+                <com:organizationAddress>
+                    <!-- Простой комментарий 2 -->
+                    <com:rawAddressString>658130, Алтайский край, Алейск город, им С.Есенина микрорайон, Вторая улица, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString>
+                </com:organizationAddress>
+                <com:okpo>1846992</com:okpo>
+                <com:duplicate>true</com:duplicate>
+            </ext:medicalCertificateOfBirthByOrganization>
+        </doc:documentConfirmingBirth>
+        <doc:documentConfirmingFiliation>
+            <doc:actRecAndCertMarriageRequisites>
+                <doc:actRecordMarriageReqs>
+                    <com:organizationName>Кунцевский отдел ЗАГС Управления ЗАГС г. Новосибирск</com:organizationName>
+                    <com:actRecordNumber>1</com:actRecordNumber>
+                    <com:actRecordDate>
+                        <com:day>15</com:day>
+
+
+
+                        <com:month>10</com:month>
+                        <com:year>2011</com:year>
+                    </com:actRecordDate>
+                </doc:actRecordMarriageReqs>
+            </doc:actRecAndCertMarriageRequisites>
+        </doc:documentConfirmingFiliation>
+    </doc:actRecord>
+    <doc:actRecordSignature>
+        <com:comment>Комментарий подписи</com:comment>
+    </doc:actRecordSignature>
+</doc:signedActRecordBirth>

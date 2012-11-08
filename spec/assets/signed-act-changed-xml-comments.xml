@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d:signedActRecordBirth xmlns:d="http://ezags.rt.ru/type/document/"
+                          xmlns:m="http://ezags.rt.ru/type/common/" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                          xmlns:t="http://ezags.rt.ru/type/externaldocuments/">
+    <d:actRecord>
+            <m:registrarId>260001</m:registrarId>
+            <m:actRecordNumber>16</m:actRecordNumber>
+            <m:actRecordDate>
+                <m:day>15</m:day>
+                <m:month>10</m:month>
+                <m:year>2012</m:year>
+            </m:actRecordDate>
+            <d:content>
+                <m:birthStatus>liveborn</m:birthStatus>
+                <m:isDiedInWeek>false</m:isDiedInWeek>
+                <m:numberOfBirths>1</m:numberOfBirths>
+            </d:content>
+            <d:participants>
+                <d:child>
+                    <m:surname>Сазоненко</m:surname>
+                    <m:firstName>Петр</m:firstName>
+                    <m:patronymic>Николаевич</m:patronymic>
+                    <m:gender>female</m:gender>
+                    <m:birthDate>
+                        <m:preciseDate>2012-10-10</m:preciseDate>
+                    </m:birthDate>
+                    <m:birthPlace>
+                        <m:rawAddressString>676840, Амурская область, Белогорск город, Низинное село, Восточный переулок, д. 1, корп. 2, стр. 3, кв. 4</m:rawAddressString>
+                    </m:birthPlace>
+                </d:child>
+                <d:father>
+                    <m:isApplicant>true</m:isApplicant>
+                    <m:surname>Сазоненко</m:surname>
+                    <m:firstName>Имя</m:firstName>
+                    <m:patronymic>Михайлович</m:patronymic>
+                    <m:birthDate>
+                        <m:preciseDate>1980-10-14</m:preciseDate>
+                    </m:birthDate>
+                    <m:birthPlace>
+                        <m:rawAddressString>385019, Адыгея республика, Майкоп город, 1-й переулок, д. 1, корп. 2, стр. 3, кв. 4</m:rawAddressString>
+                    </m:birthPlace>
+                    <m:citizenship>1</m:citizenship>
+                    <m:nationality>1</m:nationality>
+                    <m:residencePlace>
+                        <m:rawAddressString>385632, Адыгея республика, Гиагинский район, Владимировское село, Веселая улица, д. 1, корп. 2, стр. 3, кв. 4</m:rawAddressString>
+                    </m:residencePlace>
+                </d:father>
+                <d:mother>
+                    <m:isApplicant>true</m:isApplicant>
+                    <m:surname>Сазоненко</m:surname>
+                    <m:firstName>Имя</m:firstName>
+                    <m:patronymic>Владимировна</m:patronymic>
+                    <m:birthDate>
+                        <m:preciseDate>1980-10-14</m:preciseDate>
+                    </m:birthDate>
+                    <m:birthPlace>
+                        <m:rawAddressString>385019, Адыгея республика, Майкоп город, 2-й переулок, д. 1, корп. 2, стр. 3, кв. 4</m:rawAddressString>
+                    </m:birthPlace>
+                    <m:citizenship>1</m:citizenship>
+                    <m:nationality>1</m:nationality>
+                    <m:residencePlace>
+                        <m:rawAddressString>649785, Алтай республика, Кош-Агачский район, Актал село, д. 1, корп. 2, стр. 3, кв. 4</m:rawAddressString>
+                    </m:residencePlace>
+                </d:mother>
+            </d:participants>
+
+
+
+
+
+
+            <!-- Измененный комментарий -->
+
+            <d:documentConfirmingBirth>
+                <t:medicalCertificateOfBirthByOrganization>
+                    <m:documentNumber>123456789012</m:documentNumber>
+                    <m:documentSeries>123456789012</m:documentSeries>
+                    <m:documentDate>2012-10-14</m:documentDate>
+                    <m:organizationName>роддом №7</m:organizationName>
+                    <m:organizationAddress>
+                        <!-- Измененный комментарий 2 -->
+                        <m:rawAddressString>658130, Алтайский край, Алейск город, им С.Есенина микрорайон, Вторая улица, д. 1, корп. 2, стр. 3, кв. 4</m:rawAddressString>
+                    </m:organizationAddress>
+                    <m:okpo>1846992</m:okpo>
+                    <m:duplicate>true</m:duplicate>
+                </t:medicalCertificateOfBirthByOrganization>
+            </d:documentConfirmingBirth>
+            <d:documentConfirmingFiliation>
+                <d:actRecAndCertMarriageRequisites>
+                    <d:actRecordMarriageReqs>
+                        <m:organizationName>Кунцевский отдел ЗАГС Управления ЗАГС г. Новосибирск</m:organizationName>
+                        <m:actRecordNumber>1</m:actRecordNumber>
+                        <m:actRecordDate>
+                            <m:day>15</m:day>
+
+                            <m:month>10</m:month>
+                            <m:year>2011</m:year>
+                        </m:actRecordDate>
+                    </d:actRecordMarriageReqs>
+                </d:actRecAndCertMarriageRequisites>
+            </d:documentConfirmingFiliation>
+        </d:actRecord>
+    <d:actRecordSignature>
+        <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr34102001-gostr3411"/>
+                <ds:Reference URI="">
+                    <ds:Transforms>
+                        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xslt-19991116">
+                            <xslt:stylesheet xmlns:xslt="http://www.w3.org/1999/XSL/Transform" version="1.0">
+                                <xslt:output method="xml" omit-xml-declaration="yes"/>
+                                <xslt:strip-space elements="*"/>
+                                <xslt:template match="@*|node()">
+                                    <xslt:copy>
+                                        <xslt:apply-templates select="@*|node()"/>
+                                    </xslt:copy>
+                                </xslt:template>
+                            </xslt:stylesheet>
+                        </ds:Transform>
+                        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    </ds:Transforms>
+                    <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr3411"/>
+                    <ds:DigestValue>ZtonhLsw3V9Sr14iQUvwMJoTo0RbnXMFca2z29xIPxw=</ds:DigestValue>
+                </ds:Reference>
+            </ds:SignedInfo>
+            <ds:SignatureValue>
+                yYoEGWP3qpD1FN4a4n4QrQ+Ql1Ar1nnI+gmpLf2TXnO9+RCMEIoxomI2irY/2Xfj0aKLeTbtIqcr
+                nmu8Ucw+Wg==
+            </ds:SignatureValue>
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIBSTCB+aADAgECAgQP85iLMAgGBiqFAwICAzAPMQ0wCwYDVQQDEwRjZXJ0MB4XDTEyMTAzMDA3
+                        MjgzOVoXDTEzMTAzMDA3MjgzOVowDzENMAsGA1UEAxMEY2VydDBjMBwGBiqFAwICEzASBgcqhQMC
+                        AiQABgcqhQMCAh4BA0MABEAnYzFFhVgJKL4+MDMNEXMLNy/GiJs+d59yRh0GaqLhTfShT2zwNmPO
+                        CeSFo52REEkuODMeelXR6ulS0Ti/bWKCozswOTAOBgNVHQ8BAf8EBAMCA+gwEwYDVR0lBAwwCgYI
+                        KwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBBTAIBgYqhQMCAgMDQQAp1pB9GpRvWpTFvPj4G3sQ
+                        VpT/0pAcCegsZHrxE2yQQPvrLWdLO3O0M1KFYZISJl/kSKU2oiikGux+0OWhLPNC
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </ds:Signature>
+    </d:actRecordSignature>
+</d:signedActRecordBirth>

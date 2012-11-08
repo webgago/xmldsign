@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:signedActRecordDeath xmlns:cm="http://ezags.rt.ru/type/common/" xmlns:doc="http://ezags.rt.ru/type/document/">
+    <doc:actRecord>
+                    <cm:registrarId>260001</cm:registrarId>
+                    <cm:actRecordNumber>136602</cm:actRecordNumber>
+                    <cm:actRecordDate>
+                      <cm:day>19</cm:day>
+                      <cm:month>10</cm:month>
+                      <cm:year>2012</cm:year>
+                    </cm:actRecordDate>
+                    <doc:content>
+                      <cm:groupOfCausesOfDeath>
+                        <cm:a>
+                          <cm:codeInICD10>A00</cm:codeInICD10>
+                        </cm:a>
+                      </cm:groupOfCausesOfDeath>
+                    </doc:content>
+                    <doc:participants>
+                      <doc:dead>
+                        <cm:surname>Петров</cm:surname>
+                        <cm:firstName>Максим</cm:firstName>
+                        <cm:patronymic>Александрович</cm:patronymic>
+                        <cm:gender>male</cm:gender>
+                        <cm:birthDate>
+                          <cm:preciseDate>2012-10-19</cm:preciseDate>
+                        </cm:birthDate>
+                        <cm:birthPlace>
+                          <cm:rawAddressString>город Москва, Ленинградское шоссе, дом 10</cm:rawAddressString>
+                        </cm:birthPlace>
+                        <cm:citizenship>1</cm:citizenship>
+                        <cm:residencePlace>
+                          <cm:rawAddressString>село Балахоновское, Кочубеевский район, Ставропольский край, улица Школьная, дом 5</cm:rawAddressString>
+                        </cm:residencePlace>
+                        <cm:deathDate>
+                          <cm:preciseDate>2012-10-19</cm:preciseDate>
+                        </cm:deathDate>
+                        <cm:deathPlace>
+                          <cm:rawAddressString>город Москва, Щелковское шоссе, дом 3</cm:rawAddressString>
+                        </cm:deathPlace>
+                        <cm:identityDocument>
+                          <cm:documentType>21</cm:documentType>
+                          <cm:documentSeries>1625</cm:documentSeries>
+                          <cm:documentNumber>132395</cm:documentNumber>
+                          <cm:organizationName>ОВД Головинского района, город Москва</cm:organizationName>
+                          <cm:documentDate>2010-10-19</cm:documentDate>
+                          <cm:verificationStatus>2</cm:verificationStatus>
+                        </cm:identityDocument>
+                      </doc:dead>
+                    </doc:participants>
+                    <doc:otherApplicants>
+                      <doc:applicantPerson>
+                        <cm:isApplicant>false</cm:isApplicant>
+                        <cm:surname>Петрова</cm:surname>
+                        <cm:firstName>Анастасия</cm:firstName>
+                        <cm:patronymic>Александровна</cm:patronymic>
+                        <cm:birthDate>
+                          <cm:preciseDate>1994-10-19</cm:preciseDate>
+                        </cm:birthDate>
+                        <cm:residencePlace>
+                          <cm:rawAddressString>село Балахоновское, Кочубеевский район, Ставропольский край, улица Школьная, дом 5</cm:rawAddressString>
+                        </cm:residencePlace>
+                        <cm:phoneNumber>499555555</cm:phoneNumber>
+                        <cm:workPhoneNumber>55555555</cm:workPhoneNumber>
+                        <cm:identityDocument>
+                          <cm:documentType>21</cm:documentType>
+                          <cm:documentSeries>0436</cm:documentSeries>
+                          <cm:documentNumber>564995</cm:documentNumber>
+                          <cm:organizationName>ОВД Головинского района, город Москва</cm:organizationName>
+                          <cm:documentDate>2010-10-19</cm:documentDate>
+                          <cm:verificationStatus>2</cm:verificationStatus>
+                        </cm:identityDocument>
+                      </doc:applicantPerson>
+                    </doc:otherApplicants>
+                  </doc:actRecord>
+                </doc:signedActRecordDeath>

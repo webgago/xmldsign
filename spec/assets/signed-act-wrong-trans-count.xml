@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:signedActRecordBirth xmlns:act="http://ezags.rt.ru/type/actor/" xmlns:com="http://ezags.rt.ru/type/common/" xmlns:doc="http://ezags.rt.ru/type/document/" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="http://ezags.rt.ru/type/externaldocuments/"><doc:actRecord><com:registrarId>260001</com:registrarId><com:actRecordNumber>16</com:actRecordNumber><com:actRecordDate><com:day>15</com:day><com:month>10</com:month><com:year>2012</com:year></com:actRecordDate><doc:content><com:birthStatus>liveborn</com:birthStatus><com:isDiedInWeek>false</com:isDiedInWeek><com:numberOfBirths>1</com:numberOfBirths></doc:content><doc:participants><doc:child><com:surname>Сазоненко</com:surname><com:firstName>Петр</com:firstName><com:patronymic>Николаевич</com:patronymic><com:gender>female</com:gender><com:birthDate><com:preciseDate>2012-10-10</com:preciseDate></com:birthDate><com:birthPlace><com:rawAddressString>676840, Амурская область, Белогорск город, Низинное село, Восточный переулок, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString></com:birthPlace></doc:child><doc:father><com:isApplicant>true</com:isApplicant><com:surname>Сазоненко</com:surname><com:firstName>Имя</com:firstName><com:patronymic>Михайлович</com:patronymic><com:birthDate><com:preciseDate>1980-10-14</com:preciseDate></com:birthDate><com:birthPlace><com:rawAddressString>385019, Адыгея республика, Майкоп город, 1-й переулок, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString></com:birthPlace><com:citizenship>1</com:citizenship><com:nationality>1</com:nationality><com:residencePlace><com:rawAddressString>385632, Адыгея республика, Гиагинский район, Владимировское село, Веселая улица, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString></com:residencePlace></doc:father><doc:mother><com:isApplicant>true</com:isApplicant><com:surname>Сазоненко</com:surname><com:firstName>Имя</com:firstName><com:patronymic>Владимировна</com:patronymic><com:birthDate><com:preciseDate>1980-10-14</com:preciseDate></com:birthDate><com:birthPlace><com:rawAddressString>385019, Адыгея республика, Майкоп город, 2-й переулок, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString></com:birthPlace><com:citizenship>1</com:citizenship><com:nationality>1</com:nationality><com:residencePlace><com:rawAddressString>649785, Алтай республика, Кош-Агачский район, Актал село, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString></com:residencePlace></doc:mother></doc:participants><doc:documentConfirmingBirth><ext:medicalCertificateOfBirthByOrganization><com:documentNumber>123456789012</com:documentNumber><com:documentSeries>123456789012</com:documentSeries><com:documentDate>2012-10-14</com:documentDate><com:organizationName>роддом №7</com:organizationName><com:organizationAddress><com:rawAddressString>658130, Алтайский край, Алейск город, им С.Есенина микрорайон, Вторая улица, д. 1, корп. 2, стр. 3, кв. 4</com:rawAddressString></com:organizationAddress><com:okpo>1846992</com:okpo><com:duplicate>true</com:duplicate></ext:medicalCertificateOfBirthByOrganization></doc:documentConfirmingBirth><doc:documentConfirmingFiliation><doc:actRecAndCertMarriageRequisites><doc:actRecordMarriageReqs><com:organizationName>Кунцевский отдел ЗАГС Управления ЗАГС г. Новосибирск</com:organizationName><com:actRecordNumber>1</com:actRecordNumber><com:actRecordDate><com:day>15</com:day><com:month>10</com:month><com:year>2011</com:year></com:actRecordDate></doc:actRecordMarriageReqs></doc:actRecAndCertMarriageRequisites></doc:documentConfirmingFiliation></doc:actRecord><doc:actRecordSignature><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr34102001-gostr3411"></ds:SignatureMethod>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr3411"></ds:DigestMethod>
+<ds:DigestValue>IcUjUyB1Ax2C1PjOIgVu4VwQ4xhrbSXOCzq2TmnrUFk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+/+29ray02MDPt2QfK5N4kW9nFLNpG/l5UM46L+sD69mxvZUcOAlehWC6j8gqEWyFIXzkygxg5xjz
+mKMbrxrWmA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIBSjCB+qADAgECAgUA9MURWjAIBgYqhQMCAgMwDzENMAsGA1UEAxMEY2VydDAeFw0xMjEwMTkx
+MTUzNTlaFw0xMzEwMTkxMTUzNTlaMA8xDTALBgNVBAMTBGNlcnQwYzAcBgYqhQMCAhMwEgYHKoUD
+AgIkAAYHKoUDAgIeAQNDAARAqqKdU6DITVMGsCkfeYOesOTuT6hLU8yDISTbnZEQ/l/g93MLne4r
+FvjWLaY16aTQtpQPSm87o3vYpCdE/FBXQKM7MDkwDgYDVR0PAQH/BAQDAgPoMBMGA1UdJQQMMAoG
+CCsGAQUFBwMCMBIGA1UdEwEB/wQIMAYBAf8CAQUwCAYGKoUDAgIDA0EAHtFYkStXgsfG+Y5EuMGU
+w3o/vpa5Ty3xKEU+p7snQfc9hadh9fj77eTKFdn7i/kR8l29V41sfg8i7H53CnwokA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature></doc:actRecordSignature></doc:signedActRecordBirth>
