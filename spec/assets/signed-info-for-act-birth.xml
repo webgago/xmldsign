@@ -1,0 +1,15 @@
+<ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:CanonicalizationMethod>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr34102001-gostr3411"></ds:SignatureMethod>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform>
+<ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xslt-19991116">
+<xslt:stylesheet xmlns:xslt="http://www.w3.org/1999/XSL/Transform" version="1.0"><xslt:output method="xml" omit-xml-declaration="yes"></xslt:output><xslt:strip-space elements="*"></xslt:strip-space><xslt:template match="@*|node()"><xslt:copy><xslt:apply-templates select="@*|node()"></xslt:apply-templates></xslt:copy></xslt:template></xslt:stylesheet>
+</ds:Transform>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#gostr3411"></ds:DigestMethod>
+<ds:DigestValue>ZtonhLsw3V9Sr14iQUvwMJoTo0RbnXMFca2z29xIPxw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>

@@ -97,15 +97,7 @@
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
 <ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xslt-19991116">
-<xslt:stylesheet xmlns:xslt="http://www.w3.org/1999/XSL/Transform" version="1.0">
-<xslt:output method="xml" omit-xml-declaration="yes"/>
-<xslt:strip-space elements="*"/>
-<xslt:template match="@*|node()">
-<xslt:copy>
-<xslt:apply-templates select="@*|node()"/>
-</xslt:copy>
-</xslt:template>
-</xslt:stylesheet>
+<xslt:stylesheet xmlns:xslt="http://www.w3.org/1999/XSL/Transform" version="1.0"><xslt:output method="xml" omit-xml-declaration="yes"/><xslt:strip-space elements="*"/><xslt:template match="@*|node()"><xslt:copy><xslt:apply-templates select="@*|node()"/></xslt:copy></xslt:template></xslt:stylesheet>
 </ds:Transform>
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>

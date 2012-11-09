@@ -12,12 +12,13 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Xmldsign library for ruby with GOST algorithms. Work in progress...}
   gem.homepage      = ""
 
+  gem.extensions  = ["ext/xmldsign/extconf.rb"]
+
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency 'nokogiri'
   gem.add_dependency 'libxml-ruby'
   gem.add_dependency 'libxslt-ruby'
   gem.add_development_dependency 'rake-compiler', "~> 0.7.7"

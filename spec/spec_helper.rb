@@ -1,5 +1,5 @@
 # encoding: UTF-8
-
+$:.unshift File.expand_path('../../ext/', __FILE__)
 require 'rspec'
 require 'xmldsign'
 require 'pry'

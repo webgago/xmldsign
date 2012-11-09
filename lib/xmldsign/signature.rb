@@ -1,7 +1,3 @@
-require "xmldsign/version"
-require "nokogiri"
-require "delegate"
-
 module Xmldsign
   class Signature < DelegateClass(XML::Node)
     XML_C14N_1_0           = 0
@@ -10,6 +6,13 @@ module Xmldsign
 
     def signed_info
       SignedInfo.new find_first('.//ds:SignedInfo')
+    end
+
+    def c14n_signed_info
+      sign
+      doc = LibXML::XML::Document.new
+      doc.root = signed_info.copy(true)
+      doc.canonicalize mode: XML_C14N_EXCLUSIVE_1_0
     end
 
     def canonicalization_method
@@ -24,10 +27,6 @@ module Xmldsign
 
     def transforms
       signed_info.transforms
-    end
-
-    def canonicalized
-      canonicalization_method.execute
     end
 
     def sign
@@ -51,13 +50,13 @@ module Xmldsign
 
     def fill_digest!
       if (node = find_first('.//ds:DigestValue'))
-        node.content = digest_value
+        node.content = calculate_digest
       else
         raise Xmldsign::NodeError, 'node ds:DigestValue is not found in document'
       end
     end
 
-    def digest_value
+    def calculate_digest
       digest_method.execute transforms.execute
     end
   end

@@ -11,5 +11,9 @@ module Xmldsign
         raise Xmldsign::NodeError, 'node ds:Signature is not found in document'
       end
     end
+
+    def signed
+      signature.sign
+    end
   end
 end

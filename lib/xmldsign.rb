@@ -1,13 +1,13 @@
 require "xmldsign/version"
+require "xmldsign/error"
+require "xmldsign/digests/gost"
 require "libxml"
 require "libxslt"
 require "delegate"
+require "base64"
 
 module Xmldsign
   include LibXML
-
-  class Error < StandardError
-  end
 
   class NodeError < Error
   end

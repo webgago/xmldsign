@@ -1,5 +1,3 @@
-require 'openssl'
-
 module Xmldsign
   module Algorithms
     def factory(uri, node)
@@ -7,15 +5,11 @@ module Xmldsign
     end
 
     class Gostr3411
-      KEY = 'md_gost94'
-
       def initialize(transform_node)
-        OpenSSL::Engine.load
-        @engine = OpenSSL::Engine.by_id 'gost'
       end
 
       def execute(xml)
-        openssl.base64digest xml
+        Digests::Gost.base64(xml)
       end
 
       def openssl
