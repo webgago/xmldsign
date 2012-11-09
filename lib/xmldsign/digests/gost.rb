@@ -15,7 +15,7 @@ module Xmldsign
       end
 
       def initialize(data)
-        @data = data
+        @data = data.to_s
       end
 
       def base64
