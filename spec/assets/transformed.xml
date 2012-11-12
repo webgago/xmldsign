@@ -1,0 +1,167 @@
+<doc:signedActRecordBirth xmlns:doc="http://ezags.rt.ru/type/document/">
+	<doc:actRecord>
+		<com:registrarId xmlns:com="http://ezags.rt.ru/type/common/">260001</com:registrarId>
+		<com:actRecordUID xmlns:com="http://ezags.rt.ru/type/common/">000000000000000000002</com:actRecordUID>
+		<com:actRecordNumber xmlns:com="http://ezags.rt.ru/type/common/">1</com:actRecordNumber>
+		<com:actRecordDate xmlns:com="http://ezags.rt.ru/type/common/">
+			<com:day>9</com:day>
+			<com:month>11</com:month>
+			<com:year>2012</com:year>
+		</com:actRecordDate>
+		<doc:otherInformationAndOfficialAnnotations>
+			<com:otherInformationAndOfficialAnnotationsItem xmlns:com="http://ezags.rt.ru/type/common/">Other
+				Information
+			</com:otherInformationAndOfficialAnnotationsItem>
+		</doc:otherInformationAndOfficialAnnotations>
+		<com:certNumber xmlns:com="http://ezags.rt.ru/type/common/">100004</com:certNumber>
+		<com:certSeries xmlns:com="http://ezags.rt.ru/type/common/">II-ЩФ</com:certSeries>
+		<doc:content>
+			<com:birthStatus xmlns:com="http://ezags.rt.ru/type/common/">liveborn</com:birthStatus>
+			<com:isDiedInWeek xmlns:com="http://ezags.rt.ru/type/common/">false</com:isDiedInWeek>
+			<com:numberOfBirths xmlns:com="http://ezags.rt.ru/type/common/">1</com:numberOfBirths>
+		</doc:content>
+		<doc:participants>
+			<doc:child>
+				<com:surname xmlns:com="http://ezags.rt.ru/type/common/">Уваров</com:surname>
+				<com:firstName xmlns:com="http://ezags.rt.ru/type/common/">Николай</com:firstName>
+				<com:patronymic xmlns:com="http://ezags.rt.ru/type/common/">Иванович</com:patronymic>
+				<com:gender xmlns:com="http://ezags.rt.ru/type/common/">male</com:gender>
+				<com:birthDate xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:preciseDate>2012-04-01</com:preciseDate>
+				</com:birthDate>
+				<com:birthPlace xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:okatoCode>12345678910</com:okatoCode>
+					<com:countryCode>1</com:countryCode>
+					<com:rawAddressString>город Ставрополь, Ставрополький край, Россия</com:rawAddressString>
+					<com:kladrCode>1234567891013</com:kladrCode>
+				</com:birthPlace>
+			</doc:child>
+			<doc:father>
+				<com:isApplicant xmlns:com="http://ezags.rt.ru/type/common/">false</com:isApplicant>
+				<com:surname xmlns:com="http://ezags.rt.ru/type/common/">Уваров</com:surname>
+				<com:firstName xmlns:com="http://ezags.rt.ru/type/common/">Иван</com:firstName>
+				<com:patronymic xmlns:com="http://ezags.rt.ru/type/common/">Сергеевич</com:patronymic>
+				<com:gender xmlns:com="http://ezags.rt.ru/type/common/">male</com:gender>
+				<com:birthDate xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:preciseDate>1972-05-20</com:preciseDate>
+				</com:birthDate>
+				<com:birthPlace xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:okatoCode>12345678910</com:okatoCode>
+					<com:countryCode>1</com:countryCode>
+					<com:rawAddressString>город Ставрополь, Ставрополький край, Россия</com:rawAddressString>
+					<com:kladrCode>1234567891013</com:kladrCode>
+				</com:birthPlace>
+				<com:citizenship xmlns:com="http://ezags.rt.ru/type/common/">1</com:citizenship>
+				<com:nationality xmlns:com="http://ezags.rt.ru/type/common/">1</com:nationality>
+				<com:residencePlace xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:okatoCode>12345678910</com:okatoCode>
+					<com:countryCode>1</com:countryCode>
+					<com:rawAddressString>город Ставрополь, Ставропольский край, Россия, улица Шпаковская, д.22, корп.
+						22, кв 22
+					</com:rawAddressString>
+					<com:kladrCode>1234567891013</com:kladrCode>
+					<com:house>1</com:house>
+					<com:building>1</com:building>
+					<com:appartment>1</com:appartment>
+				</com:residencePlace>
+				<com:snils xmlns:com="http://ezags.rt.ru/type/common/">111-111-111 11</com:snils>
+			</doc:father>
+			<doc:mother>
+				<com:isApplicant xmlns:com="http://ezags.rt.ru/type/common/">false</com:isApplicant>
+				<com:surname xmlns:com="http://ezags.rt.ru/type/common/">Уварова</com:surname>
+				<com:firstName xmlns:com="http://ezags.rt.ru/type/common/">Марина</com:firstName>
+				<com:patronymic xmlns:com="http://ezags.rt.ru/type/common/">Дмитриевна</com:patronymic>
+				<com:gender xmlns:com="http://ezags.rt.ru/type/common/">female</com:gender>
+				<com:birthDate xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:preciseDate>1980-05-06</com:preciseDate>
+				</com:birthDate>
+				<com:birthPlace xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:okatoCode>12345678910</com:okatoCode>
+					<com:countryCode>1</com:countryCode>
+					<com:rawAddressString>город Ставрополь, Ставрополький край, Россия</com:rawAddressString>
+					<com:kladrCode>1234567891013</com:kladrCode>
+				</com:birthPlace>
+				<com:citizenship xmlns:com="http://ezags.rt.ru/type/common/">1</com:citizenship>
+				<com:nationality xmlns:com="http://ezags.rt.ru/type/common/">1</com:nationality>
+				<com:residencePlace xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:okatoCode>12345678910</com:okatoCode>
+					<com:countryCode>1</com:countryCode>
+					<com:rawAddressString>город Ставрополь, Ставропольский край, Россия, улица Шпаковская, д.22, корп.
+						22, кв 22
+					</com:rawAddressString>
+					<com:kladrCode>1234567891013</com:kladrCode>
+					<com:house>1</com:house>
+					<com:building>1</com:building>
+					<com:appartment>1</com:appartment>
+				</com:residencePlace>
+				<com:snils xmlns:com="http://ezags.rt.ru/type/common/">111-111-111 11</com:snils>
+			</doc:mother>
+		</doc:participants>
+		<doc:documentConfirmingBirth>
+			<ext:medicalCertificateOfBirthByOrganization xmlns:ext="http://ezags.rt.ru/type/externaldocuments/">
+				<com:documentNumber xmlns:com="http://ezags.rt.ru/type/common/">111111</com:documentNumber>
+				<com:documentSeries xmlns:com="http://ezags.rt.ru/type/common/">111</com:documentSeries>
+				<com:documentDate xmlns:com="http://ezags.rt.ru/type/common/">2012-05-20</com:documentDate>
+				<com:organizationName xmlns:com="http://ezags.rt.ru/type/common/">OrganizationName
+				</com:organizationName>
+				<com:organizationAddress xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:okatoCode>12345678910</com:okatoCode>
+					<com:countryCode>1</com:countryCode>
+					<com:rawAddressString>город Ставрополь, Ставропольский край, Россия, улица Шуриковская, д.10
+					</com:rawAddressString>
+					<com:kladrCode>1234567891013</com:kladrCode>
+				</com:organizationAddress>
+				<com:okpo xmlns:com="http://ezags.rt.ru/type/common/">1</com:okpo>
+				<com:duplicate xmlns:com="http://ezags.rt.ru/type/common/">false</com:duplicate>
+			</ext:medicalCertificateOfBirthByOrganization>
+		</doc:documentConfirmingBirth>
+		<doc:documentConfirmingFiliation>
+			<doc:actRecAndCertMarriageRequisites>
+				<doc:actRecordMarriageReqs>
+					<com:registrarId xmlns:com="http://ezags.rt.ru/type/common/">260001</com:registrarId>
+					<com:actRecordNumber xmlns:com="http://ezags.rt.ru/type/common/">1</com:actRecordNumber>
+					<com:actRecordDate xmlns:com="http://ezags.rt.ru/type/common/">
+						<com:day>12</com:day>
+						<com:month>5</com:month>
+						<com:year>2012</com:year>
+					</com:actRecordDate>
+				</doc:actRecordMarriageReqs>
+				<doc:certificateMarriageReqs>
+					<com:registrarId xmlns:com="http://ezags.rt.ru/type/common/">260001</com:registrarId>
+					<com:certNumber xmlns:com="http://ezags.rt.ru/type/common/">111111</com:certNumber>
+					<com:documentDate xmlns:com="http://ezags.rt.ru/type/common/">1972-05-20</com:documentDate>
+					<com:certSeries xmlns:com="http://ezags.rt.ru/type/common/">111</com:certSeries>
+				</doc:certificateMarriageReqs>
+			</doc:actRecAndCertMarriageRequisites>
+		</doc:documentConfirmingFiliation>
+		<doc:otherApplicants>
+			<doc:applicantPerson>
+				<com:isApplicant xmlns:com="http://ezags.rt.ru/type/common/">true</com:isApplicant>
+				<com:surname xmlns:com="http://ezags.rt.ru/type/common/">Уваров</com:surname>
+				<com:firstName xmlns:com="http://ezags.rt.ru/type/common/">Иван</com:firstName>
+				<com:patronymic xmlns:com="http://ezags.rt.ru/type/common/">Сергеевич</com:patronymic>
+				<com:birthDate xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:preciseDate>1972-05-20</com:preciseDate>
+				</com:birthDate>
+				<com:residencePlace xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:okatoCode>12345678910</com:okatoCode>
+					<com:countryCode>1</com:countryCode>
+					<com:rawAddressString>город Ставрополь, Ставропольский край, Россия, улица Шпаковская, д.22, корп.
+						22, кв 22
+					</com:rawAddressString>
+					<com:kladrCode>1234567891013</com:kladrCode>
+					<com:house>1</com:house>
+					<com:building>1</com:building>
+					<com:appartment>1</com:appartment>
+				</com:residencePlace>
+				<com:identityDocument xmlns:com="http://ezags.rt.ru/type/common/">
+					<com:documentType>904</com:documentType>
+					<com:documentNumber>111111</com:documentNumber>
+					<com:organizationName>OrganizationName</com:organizationName>
+					<com:documentDate>2012-05-20</com:documentDate>
+				</com:identityDocument>
+			</doc:applicantPerson>
+		</doc:otherApplicants>
+	</doc:actRecord>
+	<doc:actRecordSignature></doc:actRecordSignature>
+</doc:signedActRecordBirth>

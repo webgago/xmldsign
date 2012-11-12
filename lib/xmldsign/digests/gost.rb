@@ -12,6 +12,9 @@ module Xmldsign
         def hex(data)
           new(data).hex
         end
+        def binary(data)
+          new(data).binary
+        end
       end
 
       def initialize(data)
@@ -19,11 +22,11 @@ module Xmldsign
       end
 
       def base64
-        Base64.encode64(binary).strip
+        Base64.strict_encode64(binary(data))
       end
 
       def hex
-        binary.bytes.inject("") { |hex, b| hex << b.to_s(16) }
+        binary(data).bytes.inject("") { |hex, b| hex << b.to_s(16) }
       end
     end
   end

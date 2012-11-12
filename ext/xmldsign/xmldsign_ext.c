@@ -4,17 +4,9 @@
 #define O_BINARY 0
 #endif
 
-char* substring(const char* str, size_t begin, size_t len)
+int digest(char * data, byte * sum)
 {
-  if (str == 0 || strlen(str) == 0 || strlen(str) < begin || strlen(str) < (begin+len))
-    return 0;
-
-  return strndup(str + begin, len);
-}
-
-int digest(char * data, char * sum)
-{
-  gost_subst_block *b=  &GostR3411_94_CryptoProParamSet;
+  gost_subst_block *b= &GostR3411_94_CryptoProParamSet;
   gost_hash_ctx ctx;
 
   init_gost_hash_ctx(&ctx, b);
@@ -27,7 +19,7 @@ int digest(char * data, char * sum)
     return 0;
 }
 
-int hash_data(gost_hash_ctx *ctx, const char *data, char *sum)
+int hash_data(gost_hash_ctx *ctx, const char *data, byte *sum)
 {
   int i;
   size_t bytes = strlen(data);
@@ -42,16 +34,12 @@ int hash_data(gost_hash_ctx *ctx, const char *data, char *sum)
   return 1;
 }
 
-static VALUE rb_gost_digest(VALUE self)
+static VALUE rb_gost_digest(VALUE self, VALUE data)
 {
-  char sum[32];
-
-  VALUE data;
-
-  data = rb_iv_get(self, "@data");
+  byte sum[32];
 
   if( digest(StringValuePtr(data), sum) )
-    return rb_str_new2( substring(sum, 0, 32) );
+    return rb_str_new( sum, 32 );
   else
     return Qfalse;
 }
@@ -62,5 +50,5 @@ void Init_xmldsign_ext() {
   mDigests      = rb_define_module_under(mXmldsign, "Digests");
   cGost         = rb_define_class_under(mDigests, "Gost", rb_cObject);
 
-  rb_define_method(cGost, "binary", rb_gost_digest, 0);
+  rb_define_method(cGost, "binary", rb_gost_digest, 1);
 }
