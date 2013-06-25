@@ -1,9 +1,22 @@
 module Xmldsign
   class Transforms < DelegateClass(XML::Node)
     def execute
-      doc = LibXML::XML::Document.new
-      doc.root = document.root.copy(true)
-      algorithms.inject(doc) { |d, algorithm| algorithm.execute d }
+      signing_doc = LibXML::XML::Document.new
+      signing_doc.root = signing_node.copy(true)
+      algorithms.inject(signing_doc) { |d, algorithm| algorithm.execute d }
+    end
+
+    def signing_node
+      if (reference_uri = reference[:URI])
+        id = reference_uri.sub!('#', '')
+        doc.find_first("//*[@wsu:Id='#{id}']")
+      else
+        doc.root
+      end
+    end
+
+    def reference
+      doc.find_first('.//ds:Reference')
     end
 
     def algorithms
