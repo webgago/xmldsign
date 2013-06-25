@@ -7,7 +7,7 @@ module Xmldsign
     end
 
     def signing_node
-      if (reference_uri = reference[:URI])
+      if (reference_uri = reference[:URI] and not reference_uri.empty?)
         id = reference_uri.sub!('#', '')
         doc.find_first("//*[@wsu:Id='#{id}']")
       else
