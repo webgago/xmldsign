@@ -1,6 +1,6 @@
 module Xmldsign
   class Transforms < DelegateClass(XML::Node)
-    def execute(document=self.doc)
+    def execute
       doc = LibXML::XML::Document.new
       doc.root = document.root.copy(true)
       algorithms.inject(doc) { |d, algorithm| algorithm.execute d }
