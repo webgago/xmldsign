@@ -105,10 +105,10 @@
 <ds:DigestValue>ZtonhLsw3V9Sr14iQUvwMJoTo0RbnXMFca2z29xIPxw=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
-<ds:SignatureValue></ds:SignatureValue>
+<ds:SignatureValue/>
 <ds:KeyInfo>
 <ds:X509Data>
-<ds:X509Certificate></ds:X509Certificate>
+<ds:X509Certificate/>
 </ds:X509Data>
 </ds:KeyInfo>
 </ds:Signature>
