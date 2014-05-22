@@ -5,6 +5,14 @@ describe Xmldsign do
   LibXML::XML.indent_tree_output      = false
   subject { Xmldsign::Document.string asset('act-birth-for-sign.xml') }
 
+  it "should calculate GOST digest hex (CryptoPro parameters) " do
+    Xmldsign::Digests::Gost.hex('a').should eql 'e74c52dd282183bf37af0079c9f78055715a103f17e3133ceff1aacf2f403011'
+  end
+
+  it "should calculate GOST digest base64 (CryptoPro parameters) " do
+    Xmldsign::Digests::Gost.base64('a').should eql '50xS3Sghg783rwB5yfeAVXFaED8X4xM87/Gqzy9AMBE='
+  end
+
   it "should execute transformations" do
     subject.signature.sign.to_s.should eql asset('signed-act-birth.xml')
   end
