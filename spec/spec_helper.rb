@@ -3,7 +3,6 @@ $:.unshift File.expand_path('../../ext/', __FILE__)
 require 'rspec'
 require 'xmldsign'
 require 'pry'
-require 'pry-debugger'
 
 module Assets
   def asset(file)
