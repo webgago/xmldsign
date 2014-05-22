@@ -1,33 +1,35 @@
-require "xmldsign/xmldsign_ext"
+require "anyhash"
 
 module Xmldsign
   module Digests
     class Gost
-      attr_reader :data
 
-      class << self
-        def base64(data)
-          new(data).base64
-        end
-        def hex(data)
-          new(data).hex
-        end
-        def binary(data)
-          new(data).binary
-        end
-      end
+      attr_reader :data
 
       def initialize(data)
         @data = data.to_s
       end
 
       def base64
-        Base64.strict_encode64(binary(data))
+        [[hex].pack('H*')].pack('m0')
       end
 
       def hex
-        binary(data).bytes.inject("") { |hex, b| hex << b.to_s(16) }
+        Anyhash.gost_cryptopro(data)
       end
+
+      class << self
+
+        def base64(data)
+          new(data).base64
+        end
+
+        def hex(data)
+          new(data).hex
+        end
+
+      end
+
     end
   end
 end
